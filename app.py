@@ -32,7 +32,7 @@ BASE_DIR = Path(__file__).parent
 # =============================================
 @st.cache_data
 def load_inversiones():
-    return pd.read_csv(BASE_DIR / "data" / "inversiones_mapav2.csv")
+    return pd.read_csv(BASE_DIR / "data" / "inversiones_mapav3.csv")
 
 
 @st.cache_data
