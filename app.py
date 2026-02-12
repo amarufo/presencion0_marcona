@@ -276,7 +276,7 @@ with col_ctrl1:
         "💰 Monto Total del Proyecto (S/)",
         min_value=1_000_000,
         max_value=200_000_000,
-        value=int(marcona_row.iloc[0]["monto_viable"]) if not marcona_row.empty else 90_000_000,
+        value=int(marcona_row.iloc[0]["monto_viable"]) if not marcona_row.empty else 10_000_000,
         step=1_000_000,
         help="Costo total estimado de inversión del Centro Cultural Marcona",
         format="%d"
