@@ -1,0 +1,112 @@
+{
+    "mensaje": "La población total del distrito proyectada pasa de 21,409 habitantes (año 2026) a 30,214 habitantes (año 2038), lo que representa un crecimiento significativo de 41.1% con una tasa de crecimiento anual de 2.91%. El grupo mayoritario inicial es 'Jóvenes (29 años)' y el final será 'Jóvenes (29 años)'. El índice de envejecimiento aumenta de 39.5 a 39.5. Se analizaron específicamente las edades: 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.",
+    "estadisticas": {
+        "Método 1 (Censal)": {
+            "Población total inicial": 20545,
+            "Población total final": 27598,
+            "Tasa de crecimiento anual (%)": 2.49,
+            "Cambio porcentual total (%)": 34.3,
+            "Índice de envejecimiento inicial": 59.5,
+            "Índice de envejecimiento final": 187.3,
+            "Relación de dependencia inicial": 0.48,
+            "Relación de dependencia final": 0.79,
+            "Grupo etario mayoritario inicial": "Adultos (41 años)",
+            "Grupo etario mayoritario final": "Adultos mayores (81 años)",
+            "Población 0-14 años inicial": 4738,
+            "Población 0-14 años final": 4668,
+            "Población 15-64 años inicial": 13919,
+            "Población 15-64 años final": 15460,
+            "Población 65+ años inicial": 1887,
+            "Población 65+ años final": 7469,
+            "Lógica aplicada para tasas negativas": "conservadora",
+            "Año inicial": 2026,
+            "Año final": 2038
+        },
+        "Método 2 (INEI + Proporciones Censo)": {
+            "Población total inicial": 21409,
+            "Población total final": 30214,
+            "Tasa de crecimiento anual (%)": 2.91,
+            "Cambio porcentual total (%)": 41.1,
+            "Índice de envejecimiento inicial": 39.5,
+            "Índice de envejecimiento final": 39.5,
+            "Relación de dependencia inicial": 0.45,
+            "Relación de dependencia final": 0.45,
+            "Grupo etario mayoritario inicial": "Jóvenes (29 años)",
+            "Grupo etario mayoritario final": "Jóvenes (29 años)",
+            "Población 0-14 años inicial": 5364,
+            "Población 0-14 años final": 7570,
+            "Población 15-64 años inicial": 14766,
+            "Población 15-64 años final": 20838,
+            "Población 65+ años inicial": 1278,
+            "Población 65+ años final": 1804,
+            "Lógica aplicada para tasas negativas": "conservadora",
+            "Año inicial": 2026,
+            "Año final": 2038
+        },
+        "Método 3 (MINSA)": {
+            "Población total inicial": 18617,
+            "Población total final": 18617,
+            "Tasa de crecimiento anual (%)": 0.0,
+            "Cambio porcentual total (%)": 0.0,
+            "Índice de envejecimiento inicial": 31.8,
+            "Índice de envejecimiento final": 31.8,
+            "Relación de dependencia inicial": 0.45,
+            "Relación de dependencia final": 0.45,
+            "Grupo etario mayoritario inicial": "Jóvenes (19 años)",
+            "Grupo etario mayoritario final": "Jóvenes (19 años)",
+            "Población 0-14 años inicial": 4943,
+            "Población 0-14 años final": 4943,
+            "Población 15-64 años inicial": 12801,
+            "Población 15-64 años final": 12801,
+            "Población 65+ años inicial": 873,
+            "Población 65+ años final": 873,
+            "Lógica aplicada para tasas negativas": "conservadora",
+            "Año inicial": 2026,
+            "Año final": 2038
+        }
+    },
+    "figura_path": {
+        "evolucion_grupos_metodo1": "outputs\\test_poblacion\\figuras\\evolucion_grupos_metodo1.png",
+        "piramide_comparativa_metodo1": "outputs\\test_poblacion\\figuras\\piramide_comparativa_metodo1.png",
+        "proyeccion_total_metodo1": "outputs\\test_poblacion\\figuras\\proyeccion_total_metodo1.png",
+        "evolucion_grupos_metodo2": "outputs\\test_poblacion\\figuras\\evolucion_grupos_metodo2.png",
+        "piramide_comparativa_metodo2": "outputs\\test_poblacion\\figuras\\piramide_comparativa_metodo2.png",
+        "proyeccion_total_metodo2": "outputs\\test_poblacion\\figuras\\proyeccion_total_metodo2.png",
+        "evolucion_grupos_metodo3": "outputs\\test_poblacion\\figuras\\evolucion_grupos_metodo3.png",
+        "piramide_comparativa_metodo3": "outputs\\test_poblacion\\figuras\\piramide_comparativa_metodo3.png",
+        "proyeccion_total_metodo3": "outputs\\test_poblacion\\figuras\\proyeccion_total_metodo3.png"
+    },
+    "datos": {
+        "proyeccion_metodo1": "outputs\\test_poblacion\\datos\\proyeccion_poblacion_metodo1_110304.csv",
+        "proyeccion_metodo2": "outputs\\test_poblacion\\datos\\proyeccion_poblacion_metodo2_110304.csv",
+        "proyeccion_metodo3": "outputs\\test_poblacion\\datos\\proyeccion_poblacion_metodo3_110304.csv"
+    },
+    "motor_name": "proyeccion_poblacion_total_edades",
+    "timestamp": "2026-02-11T10:45:25",
+    "metadatos": {
+        "fuente": "Test Independiente",
+        "metodos_generados": [
+            "metodo1",
+            "metodo2",
+            "metodo3"
+        ],
+        "anio_inicio": 2026,
+        "anio_fin": 2038,
+        "ubigeo_dist": "110304",
+        "edades_interes": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+        ]
+    }
+}
