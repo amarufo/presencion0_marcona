@@ -2,7 +2,7 @@
 Centro Cultural Marcona -- Dashboard de Analisis
 =================================================
 Aplicacion Streamlit para justificar la propuesta tecnica
-del Centro Cultural Marcona como proyecto multiproposito.
+del Centro Cultural Marcona como proyecto de misionales institucionales.
 """
 
 import streamlit as st
@@ -642,7 +642,7 @@ st.markdown("""
             1. Cambio de Tipología
         </h4>
         <p style="font-size: 11px; color: #1b5e20; margin: 0; line-height: 1.5;">
-            La mejor opción para el proyecto es formularlo mediante un <b>proyecto multipropósito</b> cerrando múltiples brechas (educación, cultura, turismo) para aumentar beneficiarios y viabilidad económica. Esto permitirá aprovechar sinergias entre sectores, recoger más población beneficiaria y generar un impacto más integral en el distrito. Es la oportunidad de transformar el proyecto en un verdadero motor de desarrollo local, no solo un espacio cultural aislado.
+            La mejor opción para el proyecto es formularlo mediante un <b>proyecto de misionales institucionales/multipropósito</b> cerrando múltiples brechas (educación, cultura, turismo) para aumentar beneficiarios y viabilidad económica. Esto permitirá aprovechar sinergias entre sectores, recoger más población beneficiaria y generar un impacto más integral en el distrito. Es la oportunidad de transformar el proyecto en un verdadero motor de desarrollo local, no solo un espacio cultural aislado.
         </p>
     </div>
     <div style="background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); 

@@ -25,7 +25,7 @@ TITULOS = [
     "2. Diagnostico de Infraestructura Cultural Actual",
     "3. Analisis Demografico y Proyeccion Poblacional",
     "4. Brechas Identificadas en Servicios Culturales",
-    "5. Justificacion del Proyecto Multiproposito",
+    "5. Justificacion del Proyecto de Misional Institucional",
     "6. Eje Educativo: Formal y No Formal",
     "7. Eje Turismo: Reservas Naturales y Potencial",
     "8. Eje Cultural: Patrimonio Historico de Ica",
